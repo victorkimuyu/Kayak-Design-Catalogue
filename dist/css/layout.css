@@ -9,6 +9,7 @@ body { margin: 0 }
 }
 
 body.letter.landscape .sheet { width: 280mm; height: 215mm }
+.sheet.padding-0 { padding: 0 }
 .sheet.padding-10mm { padding: 10mm }
 .sheet.padding-15mm { padding: 15mm }
 .sheet.padding-20mm { padding: 20mm }
@@ -18,7 +19,7 @@ body.letter.landscape .sheet { width: 280mm; height: 215mm }
   body { background: #e0e0e0 }
   .sheet {
     background: white;
-    box-shadow: 0 .3mm 1mm rgba(0,0,0,.1);
+    /* box-shadow: 0 .3mm 1mm rgba(0,0,0,.1); */
     margin: 5mm auto;
   }
 }
