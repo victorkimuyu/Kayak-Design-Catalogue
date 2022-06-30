@@ -6,7 +6,6 @@ body { margin: 0 }
   position: relative;
   box-sizing: border-box;
   page-break-after: always;
-  border-radius: 6px;
 }
 
 body.letter.landscape .sheet { width: 280mm; height: 215mm }
@@ -19,7 +18,7 @@ body.letter.landscape .sheet { width: 280mm; height: 215mm }
   body { background: #e0e0e0 }
   .sheet {
     background: white;
-    box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+    box-shadow: 0 .3mm 1mm rgba(0,0,0,.1);
     margin: 5mm auto;
   }
 }

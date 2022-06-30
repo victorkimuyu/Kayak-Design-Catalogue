@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sheet{
+    @apply p-4 rounded-[4px] border border-zinc-300;
+}
+
+.letter{
+    @apply bg-zinc-200;
+}
